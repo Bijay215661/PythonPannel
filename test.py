@@ -20,7 +20,6 @@ def day_print(day_name):
             day_print(each_day)
 
         else:
-            
             print(">",each_day)
 print("\n\nThe days are: ")
 day_print(days)
