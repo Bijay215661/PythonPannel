@@ -7,11 +7,11 @@ if num_day == 7:
     print("")
 
 else:
-    print("are you sure",num_day,"days in the weeks")
+    print("Are you sure where are",num_day,"days in the week!")
 
 
 for a in range(num_day):
-    day = str(input("Enter the name of the day: "))
+    day = str(input("What are they: "))
     days.append(day)
 
 def day_print(day_name):
@@ -21,6 +21,6 @@ def day_print(day_name):
 
         else:
             
-            print("=>",each_day)
-
+            print(">",each_day)
+print("\n\nThe days are: ")
 day_print(days)
